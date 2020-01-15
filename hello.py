@@ -1,1 +1,2 @@
-Режим вывода команд на экран (ECHO) включен.
+hi = "Hello Python world!"
+print (hi)
