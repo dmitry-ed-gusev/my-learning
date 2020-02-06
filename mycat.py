@@ -1,16 +1,11 @@
-################################################################################
-#
-#	Script mimics system CAT command.
-#
-#	Created:  Ishkinin Dmitrii, 02.02.2020
-#	Modified: 
-#
-################################################################################
+import sys
 
-import sys # импортируем библиотеку
+text = len(sys.argv)
 
-a = open(sys.argv [1]) # аргумент (ссылка)
+if text > 1:
 
-print(a.read()) # читает файл по ссылке
+	text = open(sys.argv [1])
 
-a.close() # закрываем программу
+	print (text.read())
+else:
+	print ("Plesase provide a file for printing...")
