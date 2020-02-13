@@ -2,7 +2,7 @@
 #
 #	Utility from DECIMAL to BINARY.
 #
-#	Created:  Ishkinin Dmitrii, 07.02.2020
+#	Created:  Ishkinin Dmitrii, 13.02.2020
 #	Modified: 
 #
 ################################################################################
