@@ -1,4 +1,4 @@
 # my-learning
-Repository for learning software development.
+Репозиторий для изучения питона (Python)
 
-Какой-то текст...
+Владельцы: Дмитрий и Дмитрий
