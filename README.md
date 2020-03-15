@@ -1,4 +1,4 @@
-<<<<<<< master
+<<<<<<< feature/test_branch
 # my-learning
 Репозиторий для изучения питона (Python)
 
@@ -22,4 +22,4 @@
 ### Владельцы ###
 - Дмитрий
 - Дмитрий
->>>>>>> feature/test_branch
+>>>>>>> master
