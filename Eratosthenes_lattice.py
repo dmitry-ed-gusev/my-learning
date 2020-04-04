@@ -15,3 +15,4 @@ for x in L:
       if y % x == 0:        
          L.remove(y)
 print(L)
+
