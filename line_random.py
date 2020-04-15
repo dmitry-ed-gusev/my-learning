@@ -1,9 +1,9 @@
 ################################################################################
 #
-#	Simple math #1
+#   Simple math #1
 #
-#	Created:  Ishkinin Dmitrii, 17.03.2020
-#	Modified: Dmitrii Gusev, 12.04.2020
+#   Created:  Ishkinin Dmitrii, 17.03.2020
+#   Modified: Dmitrii Gusev, 12.04.2020
 #
 ################################################################################
 
