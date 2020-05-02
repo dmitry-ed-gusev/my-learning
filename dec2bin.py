@@ -7,20 +7,21 @@
 #
 ################################################################################
 
-import sys # импортируем библиотеку
+import sys  # импортируем библиотеку
 
 
-def calculate_sum(tab):
-	
-	if tab > 1:
-		text = (sys.argv [1]) # меняю значение переменной
-		cool = (float(text))
-		print (bin(int(cool))) # печать, двоичный код (если число целое),  , удаляем 2 последних символа
+def convert_dec2bin(decimal_number):
+	return bin(decimal_number)
+
+
+def main_function(cmd_line_arguments):
+
+	if len(cmd_line_arguments) > 1:
+		text = (sys.argv[1])  # беру значение переменной (первой)
+		print(convert_dec2bin(int(text)))
 	else:
-		print ("Please, provide a decimal number for conversion...")
-
+		print("Please, provide a decimal number for conversion...")
 
 
 # -- код скрипта / программы
-hold = len(sys.argv)  # hold равен длинне кортежа
-calculate_sum(hold)  # со значением hold выполняется вся функция
+main_function(sys.argv)

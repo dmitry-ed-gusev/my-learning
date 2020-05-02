@@ -36,14 +36,14 @@ def calculate_array(value):
     print_result(arr, min(arr), max(arr), average(arr))  # печать результатов
 
 
+def dec2bin(tab):
+    if tab > 1:
+        text = (sys.argv[1])  # меняю значение переменной
+        cool = (float(text))
+        print(bin(int(cool)))
+    else:
+        print("Please, provide a decimal number for conversion...")
+
+
 if __name__ == '__main__':
     print("It's a library!")
-
-
-def dec2bin(tab):
-	if tab > 1:
-		text = (sys.argv [1]) # меняю значение переменной
-		cool = (float(text))
-		print (bin(int(cool)))
-	else:
-		print ("Please, provide a decimal number for conversion...")
