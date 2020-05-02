@@ -9,17 +9,18 @@
 
 import sys # импортируем библиотеку
 
-text = len(sys.argv) # длинна аргументов (0, если ввести значение, то: 1, ...)
 
-if text > 1: # если значение text > 1
+def calculate_sum(tab):
+	
+	if tab > 1: # если значение text > 1
+		text = (sys.argv [1]) # меняю значение переменной
+		cool = int(text, 16) # int - перевод в десятичную и вывод из массива "text", 
+		# 16 - перевод из шестнадцатеричной
+		print (cool) # печать "cool" в десятичном формате
+	else:
+		print ("Please, provide a decimal number for conversion...")
 
-	text = (sys.argv [1]) # меняю значение переменной
 
-	cool = int(text, 16) # int - перевод в десятичную и вывод из массива "text", 
-	# 16 - перевод из шестнадцатеричной
-
-	print (cool) # печать "cool" в десятичном формате
-
-else:
-
-	print ("Please, provide a decimal number for conversion...")
+# -- код скрипта / программы
+hold = len(sys.argv)
+calculate_sum(hold)

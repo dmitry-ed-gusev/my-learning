@@ -1,2 +1,18 @@
-msg = "Hello world Python!"
-print (msg)
+################################################################################
+#
+#	Utility from HELLO.
+#
+#	Created:  Ishkinin Dmitrii, 23.04.2020
+#	Modified: 
+#
+################################################################################
+
+
+def print_hello():
+	print ("Hello world Python!")
+
+
+
+
+# -- код скрипта / программы
+print_hello()
