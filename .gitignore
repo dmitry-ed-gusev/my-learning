@@ -1,3 +1,7 @@
+.idea
+
 image.png
 mycat_version_1.0.py
 test_3.py
+
+__pycache__
