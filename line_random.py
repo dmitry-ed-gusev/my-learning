@@ -12,11 +12,11 @@ import utilities.my_utilities as utils
 
 
 def main_function(args_length):
-    if args_length >= 2:  # если значение text > 1
-        utils.calculate_array(sys.argv[1])
-    elif args_length == 1:
+    if args_length >= 2:  # введено 2 и более чисел
+        utils.calculate_array(sys.argv[1]) # .calculate_array производит вычесления
+    elif args_length == 1:  #введено одно число
         gav = input("Введите необходимую длинну массива: ")
-        m = len(gav)
+        m = len(gav)  # длинна массива gav
         if m >= 1:
             utils.calculate_array(gav)
         else:

@@ -8,6 +8,7 @@
 ################################################################################
 
 from random import random
+import sys
 
 
 def average(arr):  # среднее значение а
@@ -37,3 +38,12 @@ def calculate_array(value):
 
 if __name__ == '__main__':
     print("It's a library!")
+
+
+def dec2bin(tab):
+	if tab > 1:
+		text = (sys.argv [1]) # меняю значение переменной
+		cool = (float(text))
+		print (bin(int(cool)))
+	else:
+		print ("Please, provide a decimal number for conversion...")
